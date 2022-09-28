@@ -264,14 +264,6 @@ main {
     margin-bottom: 2.5px;
 }
 
-.envio {
-    display: flex;
-    justify-content: end;
-}
-
-.envio input {
-    margin-right: 5px;
-}
 
 .form-item {
     text-align: center;
