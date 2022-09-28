@@ -1,0 +1,322 @@
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    min-height: calc(100vh - 100px - 20px);
+    background-image: url(../Imagenes/VCP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;    
+}
+
+
+.color1 {color:rgb(228, 213, 0)}
+
+/* Inicio Header + Nav */
+
+#header-container{
+    background-color: rgb(48, 42, 42) ;
+    padding: 20px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: large;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+.menu li {
+    padding: 0px 20px;
+}
+
+.menu a:hover {
+    color: rgb(228, 213, 0)
+}
+/* Fin Header + Nav */
+
+/* Inicio  pagina principal */
+#pagina-principal {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#pagina-principal h1 {
+    font-size: 5em;
+    color:rgb(253, 253, 253);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 10px 0 #ffffff;
+    background-color: rgb(48, 42, 42, 0.8);
+}
+#pagina-principal p {
+    font-size: 3em;
+    padding: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(48, 42, 42, 0.8);
+    border-radius: 5px;
+}
+
+#destinos-principal {
+    width: 100%;
+    height: 50vh;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+#destinos-principal a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 42, 42, 0.8);
+    font-size: 5em;
+    border-radius: 5px;
+}
+
+#destinos-principal a:hover {
+    color:rgb(228, 213, 0)
+}
+
+/* Inicio Destinos */
+
+#galeriaDestinos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#galeriaDestinos p {    
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.galeria {
+    margin: 10px 10px;
+    box-shadow: 0px 4px 10px 0 #ffffff;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.pie {
+    text-align: center;
+    padding: 5px;
+    font-size: 2em;
+    background-color: rgba(0, 0 , 0 , 0.5);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+} 
+
+.pie a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgba(10, 10, 10, 0.9);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.pie a:hover {
+    color: rgb(228, 213, 0);
+}
+
+.pie p {
+    padding-bottom: 5px;
+}
+/*Fin Destinos*/
+
+/*Inicio Nosotros*/
+
+ .quienes{
+    font-size: 20px;
+ }
+.nosotros-img{
+    height:200px;
+    width: 300px;
+    display: flex;
+    padding-left: 5px ;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.pie-1ra-img{
+    font-size: 15px;
+}
+.porque{
+    font-size: 20px;
+}
+.texto-no-definido{
+    font-size: 17px;
+}
+.nosotros-img2{
+    width: 100%;
+    display: flex;
+
+}
+.pie-2da-img{
+    font-size: 15px;
+}
+.imgbox{
+    width: 25%;
+    
+}
+/*Fin Nosotros*/
+/*Inicio Alojamiento*/
+
+#galeriaAlojamiento {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#galeriaAlojamiento p {    
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.galeria {
+    margin: 10px 10px;
+    box-shadow: 0px 4px 10px 0 #ffffff;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.pie1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 2em;
+    background-color: rgba(121, 116, 93, 0.5);
+    border: 1px solid #464916;
+    border-radius: 5px;
+} 
+
+.pie1 a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgba(10, 10, 10, 0.9);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.pie1 a:hover {
+    color: rgb(228, 213, 0);
+}
+
+.pie1 p {
+    padding-bottom: 5px;
+}
+
+/* Fin de Alojamiento */
+/* Inicio Contacto */
+#contacto {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: left;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+.container_mapa{
+    display:block
+    
+
+}
+
+
+
+
+
+/* Inicio footer */
+footer {    
+    padding: 5px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 2em;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.2em;
+}
+
+.redes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container h3 {
+    padding-right: 20px;
+}
+
+.redes-container a{
+    padding-right: 10px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Fin de footer */
