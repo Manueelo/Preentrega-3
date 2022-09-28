@@ -248,6 +248,12 @@ a{
 /* Fin de Alojamiento */
 
 /* Inicio Contacto */
+
+.mapa h2 {
+    padding: 15px;
+    font-size: 2.5em;    
+}
+
 .formulario {
     display: flex;
     justify-content: center;
@@ -258,6 +264,7 @@ a{
 .formulario h2 {
     text-align: center;
     padding: 5px;
+    font-size: 2.5em;
 }
 
 .form-item input {
@@ -288,6 +295,7 @@ a{
 .mapa {
     text-align: center;
 }
+
 
 .h2 h2{
     font-size: 2.5em;
@@ -346,7 +354,8 @@ footer img {
 
 /* Fin de footer */
 
-/* Navegador responsive */
+
+/* INICIO MENU RESPONSIVE */
 
 
 .header {
@@ -458,6 +467,11 @@ footer img {
 .navigation input:checked ~ .menu {
     right: 0;
 }
+
+/* FIN MENU RESPONSIVE */
+
+
+/* INICIO MEDIA QUERIES PANTALLA MOBILE */
 
 @media screen and (max-width: 992px) {
     
@@ -595,10 +609,21 @@ footer img {
         transition: all 1s ease-in-out;
         font-size: 2em;
     }
+    
+    .mapa iframe {
+        width: 100%;
+    }
+    
 
    
     
 } 
+
+
+/* fIN MEDIA QUERIES PANTALLA MOBILE */
+
+
+/* INICIO MEDIA QUERIES PANTALLA DESKTOP*/
 
 @media screen and (min-width: 992px) {
     .footer-container {
@@ -628,6 +653,10 @@ footer img {
         font-size: 2em;
         background-color: rgba(10, 10, 10, 0.4);
 
+    }
+
+    .mapa iframe {
+        width: 80%;
     }
     
     .main-container a{
@@ -699,4 +728,9 @@ footer img {
         transform: scale(2);
         transition: all .5s;
     }
+
+    
+    
 }
+
+/* FIN MEDIA QUERIES PANTALLA DESKTOP*/
