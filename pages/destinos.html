@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HuPaviajes</title>
+    <!--CDN BOOSTRAP -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!--CSS only-->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+    <div class="grid-container2">
        <header class="header">
         <a href="../index.html">
             <h1>HuPaviajes</h1>
@@ -22,7 +26,7 @@
             <ul class="menu">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pages/sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a href="..pages/destinos.html">Destinos</a></li>
+                <li><a href="./pages/destinos.html">Destinos</a></li>
                 <li><a href="../pages/alojamiento.html">Alojamiento</a></li>
                 <li><a href="../pages/contactos.html">Contactos</a></li>                
             </ul>
@@ -31,7 +35,48 @@
     </header>
     <main>
         <section id="galeriaDestinos" class="">
-            <div class="galeria">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../Imagenes/villamaria.png" class="d-block w-100" alt="...">
+                    <div class="pie">
+                        <p>Villa Maria</p>
+                        <a href="../pages/alojamiento.html">Hotel Amerian</a>                    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Imagenes/capilla.webp" class="d-block w-100" alt="...">
+                    <div class="pie">
+                        <p>Capilla del Monte</p>
+    
+                        <a href="../pages/alojamiento.html">Hotel Montecassino</a>
+    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Imagenes/mina-clavero.jpg" class="d-block w-100" alt="...">
+                    <div class="pie">
+                        <p>Mina Clavero</p>
+                    
+                        <a href="../pages/alojamiento.html">Hotel Minas</a>                 
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            <!--<div class="galeria">
                 <div class="foto">
                     <img src="../Imagenes/villamaria.png" alt="Destino 1">
                 </div>
@@ -62,8 +107,8 @@
                 
                     <a href="../pages/alojamiento.html">Hotel Minas</a>                 
                 </div>
-            </div>
-        </section>
+            </div>--> 
+          </section>
     </main>
     <footer class="footer">
         <div>
@@ -77,8 +122,11 @@
                 <a href="https://twitter.com" target="_blank"><img src="../Imagenes/twitter-icon.png" alt=""></a>
                 <a href="https://instagram.com" target="_blank"><img src="../Imagenes/instagram-icon.jpg" alt=""></a>
         </div>
-       
+    
     </footer>
+</div>
+ <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
      
