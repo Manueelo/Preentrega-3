@@ -12,9 +12,12 @@ html {
 
 body {    
     background-image: url(../Imagenes/VCP.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../Imagenes/VCP.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
     background-position: center center;    
+    backface-visibility: inherit;
 }
 
 a{
@@ -273,7 +276,7 @@ a{
 /*Fin Nosotros*/
 /*Inicio Alojamiento*/
 
-#galeriaAlojamiento {
+#galeria-alojamiento {
     width: 100%;
     height: auto;
     display: flex;
@@ -283,7 +286,7 @@ a{
     justify-content: center;
 } */
 
-#galeriaAlojamiento p {    
+#galeria-alojamiento p {    
     border-radius: 5px;
     padding: 5px;
 }
@@ -396,14 +399,18 @@ a{
 
 footer {
     background-color: rgba(10, 10, 10);
-    height: 9em;
-    margin-bottom: auto ;
+    height: 6em;
+    margin-bottom: 0 auto ;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 footer p {
     font-size: 1.5em;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 0 auto;
 }
 
 footer h3 {
@@ -414,6 +421,7 @@ footer h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 10px;
 }
 
 
@@ -746,6 +754,18 @@ footer img {
     width: 100%;
 
 }
+/* Sobre Nosotros Mobile*/
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+}
+
 /* fIN MEDIA QUERIES PANTALLA MOBILE */
 
 
